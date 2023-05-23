@@ -1,0 +1,50 @@
+.task-list-container {
+    margin-bottom: 20px;
+  }
+  
+  .task-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .task-list li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .task-list li:last-child {
+    margin-bottom: 0;
+  }
+  
+  .task-checkbox {
+    margin-right: 10px;
+  }
+  
+  .task-description {
+    flex: 1;
+    font-size: 16px;
+  }
+  
+  .edit-task-btn,
+  .edit-task-input {
+    display: none;
+  }
+  
+  .task-list li:hover .edit-task-btn {
+    display: inline-block;
+  }
+  
+  .task-list li:hover .task-description {
+    display: none;
+  }
+  
+  .task-list li:hover .edit-task-input {
+    display: inline-block;
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
